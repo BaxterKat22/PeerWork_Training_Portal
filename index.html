@@ -7,37 +7,39 @@
         h1 { color: #2c3e50; margin-bottom: 10px; }
         .subtitle { color: #7f8c8d; margin-bottom: 30px; }
         .module-list { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .module-card { background: #fff; border: 2px solid #3498db; padding: 20px; border-radius: 10px; text-decoration: none; color: #2c3e50; transition: 0.3s; }
-        .module-card:hover { background: #3498db; color: white; transform: translateY(-5px); }
+        .module-card { background: #4a4a4a; border: 2px solid #4a4a4a; padding: 20px; border-radius: 10px; text-decoration: none; color: white; transition: 0.3s; }
+        .module-card:hover { background: #3a3a3a; color: white; transform: translateY(-5px); }
         .module-card h3 { margin: 0; }
+        .module-card p { color: white; }
     </style>
 </head>
 <body>
 
 <div class="dashboard">
+    <img src="4316543936_f15f863efb.jpg" alt="Peer Support Training" style="width: 100%; max-width: 600px; border-radius: 10px; margin-bottom: 20px;">
     <h1>Peer Support Training Portal</h1>
     <p class="subtitle">Select a module to begin your learning journey.</p>
 
     <div class="module-list">
+        <div class="module-card">
+            <h3>01. Learning Journey</h3>
+            <p>Start your training</p>
+        </div>
+
         <a href="practice.html" class="module-card">
-            <h3>01. Intro Scenario</h3>
+            <h3>02. Intro Scenario</h3>
             <p>A quick check-in on self-disclosure.</p>
         </a>
 
         <a href="ethics_quiz.html" class="module-card">
-            <h3>02. Ethical Dilemmas</h3>
+            <h3>03. Ethical Dilemmas</h3>
             <p>Test your knowledge on boundaries.</p>
         </a>
 
         <a href="reflection.html" class="module-card">
-            <h3>03. Reflection Journal</h3>
+            <h3>04. Reflection Journal</h3>
             <p>Download your personal notes.</p>
         </a>
-
-        <div class="module-card" style="border-style: dashed; border-color: #ccc; opacity: 0.6;">
-            <h3>04. Coming Soon</h3>
-            <p>Future mental health legislation unit.</p>
-        </div>
     </div>
 </div>
 
